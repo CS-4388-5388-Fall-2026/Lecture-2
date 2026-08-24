@@ -4,7 +4,7 @@ The latest commit will be the finished code at the end of class.  If you are int
 
 ## Prerequisites
 
-To work with this code, you will first need to install [Node.js 22.18.0 LTS](https://nodejs.org/en/) (or newer) and [Visual Studio Code](https://code.visualstudio.com/). 
+To work with this code, you will first need to install [Node.js 24.19.0 LTS](https://nodejs.org/en/) (or newer) and [Visual Studio Code](https://code.visualstudio.com/). 
 
 I also recommend you install the following useful VS Code extensions:
 
