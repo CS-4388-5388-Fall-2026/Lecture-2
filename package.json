@@ -1,0 +1,26 @@
+{
+  "name": "gophergfx-app-template",
+  "version": "1.0.0",
+  "description": "GopherGfx App Template, CS 4388/CS 5388, Fall 2026",
+  "author": " Isayas Berhe Adhanom <isayas@txstate.edu>",
+  "contributors": ["Evan Suma Rosenberg (original GopherGfx template)"],
+  "license": "CC BY-NC-SA 4.0",
+  "type": "module",
+  "devDependencies": {
+    "@gltf-transform/core": "^3.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.36.2",
+    "@typescript-eslint/parser": "^5.36.2",
+    "esbuild-plugin-glsl": "^1.1.0",
+    "eslint": "^8.23.0",
+    "gophergfx": "github:illusioneering/GopherGfx",
+    "javascript-obfuscator": "^4.0.0",
+    "vite": "^7.1.3",
+    "vite-plugin-glsl": "^0.3.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "vite",
+    "build": "vite build && javascript-obfuscator ./dist/index.js --output ./dist/index.js --simplify false",
+    "preview": "vite preview"
+  }
+}
